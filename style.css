@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    color: #000000;
+}
+html,
+body {
+    width: 100%;
+    max-width: 990px;
+    background: rgb(46, 192, 233);
+    background-image: url(img/178784381_68b6f94e-6e96-41f6-bb62-e5d3d4f12b16.jpg);
+    margin: auto;
+    height: 150%;
+}
+.topbar {
+    width: 100%;
+    height: 80px;
+    max-width: 990px;
+    position: fixed;
+    top: 0;
+    font-size: 14px;
+    line-height: 2.2rem;
+    background: rgb(92, 135, 221);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    will-change: transform;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    z-index: 1000;
+}
+.topbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topbar li {
+    position: relative;
+    height: 100%;
+    list-style: none;
+}
+.topbar li a {
+    height: 100%;
+    position: relative;
+    padding: 25px 62px;
+    display: flex;
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+#home {
+    background-image: url(img/BG1.png);
+}
+.words11 {
+    position: relative;
+    bottom: 7rem;
+    left: 10%;
+}
+.pict1 {
+    position: relative;
+    top: 5rem;
+    left: 10%;
+}
+
+#profile {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-image: url(img/BG2.png);
+}
+.pict22 {
+    position: relative;
+    left: 8%;
+    top: 5rem;
+}
+.name {
+    position: relative;
+    left: 5%;
+    bottom: 5rem;
+}
+.bio {
+    position: relative;
+    left: 35%;
+    bottom: 7rem;
+}
+.app {
+    position: relative;
+    right: 23%;
+    bottom: 3rem;
+}
+
+#work {
+    width: 100%;
+    bottom: 1%;
+    margin: auto;
+    position: relative;
+    background-image: url(img/BG3.png);
+}
+.bannersign {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1rem;
+}
+.banners {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bannertext {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.websites {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ramenhotel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ramenbutton {
+    position: relative;
+    margin-left: 8%;
+    bottom: 0rem;
+    display: flex;
+    list-style: none;
+}
+.button {
+    list-style: none;
+}
+.hotelbutton {
+    position: relative;
+    margin-left: 55%;
+    bottom: 4rem;
+    display: flex;
+    list-style: none;
+}
+.artsign {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.artspict {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact {
+    background-image: url(img/BG41.png);
+    padding-top: 15px;
+}
+.email {
+    margin-left: 200px;
+}
+.email p {
+    margin-left: 150px;
+    bottom: 5rem;
+    position: relative;
+}
+.insta {
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.insta p {
+    margin-left: 150px;
+    bottom: 5rem;
+    position: relative;
+}
